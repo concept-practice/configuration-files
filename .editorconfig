@@ -217,6 +217,9 @@ dotnet_diagnostic.SA1101.severity = none
 # SA1633: File should have header
 dotnet_diagnostic.SA1633.severity = none
 
+# SA1649: File name should match first type name
+dotnet_diagnostic.SA1649.severity = none
+
 # IDE0065: Files must be in the correct order
 dotnet_diagnostic.IDE0065.severity = none
 
@@ -229,5 +232,8 @@ dotnet_diagnostic.CS1591.severity = none
 # SA1135: Using directive for namespace should be qualified
 dotnet_diagnostic.SA1135.severity = none
 
-# IDE0065: Unused namespace delarations
-dotnet_diagnostic.IDE0005.severity = warning
+# CA2007: Consider calling ConfigureAway on the awaited task
+dotnet_diagnostic.CA2007.serverity = none
+
+# CA17107: Remove the underscores from member name
+dotnet_diagnostic.CA1707.serverity = none
